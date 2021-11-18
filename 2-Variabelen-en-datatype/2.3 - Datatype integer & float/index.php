@@ -5,9 +5,7 @@
 <?php
 $leeftijd = 16;
 echo $leeftijd;
-?>
-
-<?php
+echo "<br>";
 $melk = "jumbo half volle melk kost €0.89";
 echo $melk;
 ?>
