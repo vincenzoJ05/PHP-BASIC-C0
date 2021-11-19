@@ -3,8 +3,8 @@
 <body>
 
 <?php
-$score = 0;
-echo $score;
+$waarde = 0;
+echo $waarde;
 ?>
 
 </body>
