@@ -1,11 +1,9 @@
 <?php
 function geefTienProcent(){
     $koopPrijs = 75;
-    $korting = 90;
-    return ($koopPrijs / 100) * $korting;
+    $korting = 10;
+    $kortingEuro = ($koopPrijs / 100) * $korting;
+    return  $koopPrijs - $kortingEuro;
     
 }
-function zetAllesGroot(){
-    echo '<h4>' .geefTienProcent() . `</h4>`;
-}
-zetAllesGroot();
+echo geefTienProcent();
