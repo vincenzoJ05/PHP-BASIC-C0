@@ -12,7 +12,7 @@
 $voornaam1 = "Vincenzo";
 $voornaam2 = "Eric";
 $voornaam3 = "Recep aka GT";
-echo "<li>$voornaam1 </li> <li> $voornaam2</li>  <li>$voornaam3</li>";
+echo "<ul> <li>$voornaam1 </li> <li> $voornaam2</li>  <li>$voornaam3</li> <ul>";
 ?>
 </body>
 </html>
