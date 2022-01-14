@@ -6,8 +6,8 @@
 $leeftijd = 16;
 echo $leeftijd;
 echo "<br>";
-$melk = "jumbo half volle melk kost €0.89";
-echo $melk;
+$melk = 0.89;
+echo "De halfvolle melk van jumbo kost" . " ". "€".$melk;
 ?>
 </body>
 </html> 
