@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<?php
-    require 'includes/database.php';
-?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,10 +9,8 @@
 
 </head>
 <body>
-    <ul>
-        <li>menu-items 1</li>
-        <li>menu-items 2</li>
-        <li>menu-items 3</li>
-    </ul>
+<?php
+    require 'includes/menu.php';
+?>
 </body>
 </html>
